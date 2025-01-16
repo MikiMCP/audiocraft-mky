@@ -1,0 +1,29 @@
+# please make sure you have already a pytorch install that is cuda enabled!
+av==11.0.0
+einops==0.8.0
+flashy>=0.0.1
+hydra-core>=1.1
+hydra_colorlog
+julius==0.2.7
+num2words==0.5.14
+numpy<2.0.0
+sentencepiece==0.2.0
+spacy==3.7.6
+torch==2.1.0
+torchaudio>=2.0.0,<2.1.2
+huggingface_hub
+tqdm==4.67.1
+transformers>=4.31.0  # need Encodec there.
+xformers<0.0.23
+demucs==4.0.1
+librosa==0.10.2.post1
+soundfile==0.13.0
+gradio==4.44.1
+torchmetrics==1.6.1
+encodec==0.1.1
+protobuf==5.29.3
+torchvision==0.16.0
+torchtext==0.16.0
+pesq==0.0.4
+pystoi==0.4.1
+torchdiffeq==0.2.5
